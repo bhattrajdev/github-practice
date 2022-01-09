@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h1 {
+    background-color: black;
+    padding: 10;
+    color: white;
+        font-size: 40px; 
+ text-align: center;
+ text-transform: uppercase;  
+
+}
+body{
+    background-color: rgb(76, 243, 21);
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1> admission form</h1>
+    <table border="1" width="100%">
+        <tr align="center"> 
+            <th><a href=../homepage.html>HOME</a></th>
+            <th><a href=aboutus.html>ABOUT US</a></th>
+            <th><a href=services.html>Services </a></th>
+            <th><a href=contact.html> CONTACT</a></th>
+            <th><a href=form.html> Form</a></th>
+        
+        </tr>
+        </table>
+    <form name="frmContact" method="post" action="">
+    <table>
+<div>
+        <tr>
+    <td> First Name</td>
+    <td> 
+    <input type="text" name="firstname" value=""></td>
+    &nbsp; <td> Middle Name</td>
+    <td>
+    <input type="text" name="fullname" value=""></td>
+
+
+    &nbsp; <td> Last Name</td>
+    <td>
+    <input type="text" name="fullname" value=""></td>
+</tr>
+<tr>
+    
+    <td>Address</td>
+    <td> <input type="text" name="Address" value=""></td>
+
+</tr>
+<tr>
+    <td>Date of birth</td>
+    <td> <input type="date" name="DOB" value=""></td>
+    </tr>
+      <tr>  
+        <td>Email</td>
+        <td>
+        <input type="email" name="email" value=""></td>
+        
+    </tr>
+    <tr>
+        <td> Education</td>
+        <td><select name="Education">
+<option> Choose</option>
+<option >SEE </option>
+<option> +2</option>
+<option> Bachelor</option>
+<option> Master</option>
+
+        </select> </td>
+    </tr>
+    <tr>
+<td>Gender</td>
+</tr>
+<tr>
+    <td><input type="radio" name="gender" value="Male"> Male</td>
+    <td><input type="radio" name="gender" value="Female"> Female</td>
+    </tr>
+    <tr>
+            <td>Message:</td>
+            <td>    <textarea name="Messgae" placeholder="Type your message here..."></textarea>
+            </td>
+            </tr>
+<tr>
+            <td>
+                <input type="submit" name="send" value="submit">
+             
+            </td>
+            <td>
+               <input type="reset" name="reset" value="reset">
+                </td>
+            
+            </tr>
+</div>
+</table>
+</form>
+</body>
+</html>
